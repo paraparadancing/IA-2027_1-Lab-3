@@ -247,3 +247,4 @@ class AgenteLogicoDPLL:
             dx, dy = self.VECTORES[self.ORIENTACIONES[self.orientacion_idx]]
             self.x += dx
             self.y += dy
+

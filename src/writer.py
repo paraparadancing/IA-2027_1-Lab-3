@@ -51,4 +51,4 @@ def restart_game(api: ClienteWumpusAPI, agente: AgenteLogicoDPLL) -> dict[str, b
     current_perception = api.iniciar_juego()
     agente.restart()
 
-    return current_perception
+    return current_perception 
